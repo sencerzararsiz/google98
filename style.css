@@ -1,0 +1,89 @@
+/*****************general settings ******************/
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+  max-width: 1730px;
+  margin: 30px auto;
+  text-align: justify;
+  box-sizing: border-box;
+}
+
+a {
+  color: black;
+}
+
+input {
+  width: 25em;
+  padding: 1px 2px;
+}
+
+/*************** main section starts *****************/
+.box1 {
+  background-color: #EEEEEE;
+  display: block;
+  padding: 5px;
+}
+
+.box2 {
+  min-width: 37%;
+  min-height: 80px;
+  margin: 5px auto;
+  padding: 11px 3px 3px 3px;
+  display: inline-block;
+  float: left;
+  background-color: rgb(126, 229, 218);
+  vertical-align: top; 
+}
+
+.box3 {
+  min-width: 27%;
+  min-height: 80px;
+  margin: 5px;
+  display: inline-block;
+  vertical-align: top;
+  background-color:  rgb(112, 204, 194);
+}
+
+.box4 {
+  width: 35.3%;
+  max-height: 80px;
+  margin: 5px auto;
+  float: right;  
+  display: inline-block;
+  vertical-align: top;
+  background-color: rgb(98, 179, 170);
+}
+
+.box4 input {
+  width: 15em;
+  
+}
+
+.box4 a {
+  color: #5F9DF7
+}
+/************ main section ends ***************/
+
+/*******************button start  ****************/
+.btn {
+  background-color: #F0F0F0;
+  border-color: #ddd;
+  border-radius: 3px;
+  padding: 1px;
+}
+
+.btn:hover {
+  background: #54cfdd;
+}
+/****************** button end ******************/
+
+
+
+
